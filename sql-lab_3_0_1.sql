@@ -16,6 +16,10 @@ insert into sakila.staff(first_name, last_name, email, address_id, store_id, use
 values('TAMMY','SANDERS', 'TAMMY.SANDERS@sakilacustomer.org', 79, 2, 'tammy');
 select * from sakila.staff;
 
+-- 3. Add rental for movie "Academy Dinosaur" by Charlotte Hunter from Mike Hillyer at Store 1
+
+SELECT * from sakila.customer 
+WHERE first_name = 'Charlotte';
 
 SELECT first_name, last_name from sakila.staff;
 
