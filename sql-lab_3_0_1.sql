@@ -30,7 +30,7 @@ SELECT first_name, last_name from sakila.staff;
 -- 3. Add phone number to the staff
 -- 4. In sakila.film, title is reduced from 128 to 50 VARCHAR
 
-SELECT phone from sakila.address;
+SELECT phone from sakila.address; -- USED TO SEE WHAT WE NEED
 
 
 
